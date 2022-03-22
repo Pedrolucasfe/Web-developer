@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos flutuantes na prática</title>
+    <style> 
+    body {
+        background-color: rgb(221, 221, 221);
+    }
+    #principal {
+        width: 1000px;
+        border: 1px solid black;
+    }
+    #noticias {
+        padding: 7px;
+        
+
+    }
+    .noticia{
+        width: 300px;
+        border: 1px solid grey;
+        float: left;
+        padding: 7px;
+        background-color: rgb(207, 235, 245);
+        margin: 5px;
+    }
+    .clear  {
+        clear: both;
+    }
+    .imagem {
+        background-color: white;
+        width: 265px;
+        float: left;
+        padding: 5px;
+        margin: 15px;
+    }
+    </style>
+</head>
+<body>
+    <div id="principal">
+         <div id="noticias">
+             <div class="noticia">
+               <h1>Noticia 1</h1>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis deleniti tempora, minus a sapiente suscipit explicabo facilis porro sequi, quae voluptatibus aliquid sed iste et quo molestiae iure nihil distinctio?</p>
+               <a href="">Veja mais</a>
+             </div>
+             <div class="noticia"> 
+                <h1>Noticia 2</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur repellendus vero soluta fugiat saepe quia id corporis ut praesentium ducimus ratione est, cum ullam nihil, iste nulla deleniti dignissimos. Nobis?</p>
+                <a href=""> Veja mais</a>
+             </div>
+             <div class="noticia">
+                <h1>Noticia 3 </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, fugiat! Est dignissimos harum ipsa blanditiis fugit magni delectus aperiam labore officia, ratione totam temporibus laudantium quam eveniet dolorum, </p>
+                <a href="">Veja mais</a>
+             </div>
+             <div class="clear"></div>
+        </div>
+        
+        <div id="imagens">
+            <div class="imagem"> <img src="imagens/imagem1.png" alt=""><p>Resumo</p></div>
+            
+            <div class="imagem"><img src="imagens/imagem2.png" alt=""><p>Resumo</p></div>
+            
+            <div class="imagem"> <img src="imagens/imagem3.png" alt=""><p>Resumo</p></div>
+            
+            <div class="imagem"><img src="imagens/imagem4.png" alt=""><p>Resumo</p></div>
+            
+            <div class="imagem"> <img src="imagens/imagem5.png" alt=""><p>Resumo</p></div>
+            
+
+            <div class="clear"></div>
+        </div>
+      
+
+
+
+    </div>
+
+    
+</body>
+</html>
