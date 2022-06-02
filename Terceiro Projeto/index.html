@@ -4,186 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TecBlog - O seu Blog de tecnologia</title>
-    <style>
-        body{
-            font-family: Arial, Helvetica, sans-serif;
-            margin: 0px;
-            background-color: rgba(211, 211, 211, 0.486);
-        }
-        #cabeçalho{
-            background-color: rgb(255, 174, 0);
-            text-align: center;
-            padding: 10px;
-            font-size: 1.3em;
-            width: 100%;
-        }    
-        #links {
-            padding-bottom: 20px;
-        }
-        #links a  {
-            color:white;
-            text-decoration: none;
-            position: relative;
-            top: 12px;
-            font-weight: bold;
-            padding: 10px 10px;
-        }
-        #links a:hover {
-            background-color: white ;
-            color: rgb(255, 174, 0);
-                     
-        }
-        #principal {
-            position: relative;
-        }
-        .titulo1 {
-            width: 800px;
-            background-color: white;
-            padding: 20px;
-            margin-top: 15px;
-            position: relative;
-            left: 200px;
-            display: inline-block;
-        }
-        .titulo1  h1, p {
-            margin: 0px;
-            
-
-        }
-        .titulo1 img {
-            padding-top: 10px ;
-            width: 800px;
-        }
-        .titulo {
-            color: orange;
-        }
-        .espacamento {
-            padding: 10px;
-        }
-        .lateral {
-            background-color: white;
-            width: 300px;
-            padding: 7px;
-            position: absolute;
-            bottom: 550px;
-            left: 1070px;
-           
-    
-        }
-        .lateral h2 {
-            background-color: lightgrey;
-            padding: 5px;
-            color: grey;
-        }
-        .lateral a {
-            color: rgb(255, 174, 0);
-            text-decoration: none;
-        }
-        .lateral2 {
-            background-color: white;
-            width: 300px;
-            padding: 7px;
-            position: absolute;
-            bottom: 320px;
-            left: 1070px;
-        }
-        .lateral2 h2 {
-            background-color: lightgrey;
-            padding: 5px;
-            color: grey;
-            margin: 0px;
-        }
-        .lateral2 a {
-            text-decoration: none;
-            color: orange;
-        }
-       
-        
-        .titulo2 {
-            width: 800px;
-            background-color: white;
-            padding: 20px;
-            margin-top: 15px;
-            position: relative;
-            left: 200px;
-
-        }
-        .titulo2  h1, p {
-            margin: 0px;
-            
-
-        }
-        .titulo2 img {
-            padding-top: 10px ;
-            width: 800px;
-        }
-    
-        .espacamento {
-            padding: 10px;
-        }
-
-       
-    </style>
+    <title>TecBlog - O seu blog de tecnologia</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="cabeçalho">
-        <h1 class="h1">Tec<span style="color: white;">Blog</span></h1>
-        <div id="links">
-            <p>
-                <a href="" >Home</a>
-                <a href="" >Jogos</a>
-                <a href="" >Celulares</a>
-                <a href="" >Informática</a>
-                <a href="">Eletrônicos</a>
-            </p>
-        </div>
-    </div>
-    <div id="principal">
-        <div class="titulo1">
-            <div class="espacamento">
-                <h1 class="titulo">Título da postagem 1</h1>
-                <p>postado em 20 março 2022</p>
-            </div>
-            <img src="Imagens-projeto/imagem2.jpg" alt="">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, neque beatae veniam sunt nobis excepturi? Voluptatum, labore, provident eligendi odit expedita quae ut corporis qui voluptatem nesciunt iste nobis Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, autem ullam. Tempora earum recusandae iste nihil consectetur rem, maiores, veritatis consequatur iure aliquam ullam odit accusantium, corrupti quaerat consequuntur voluptas?</p>
-            <a href=""> Leia mais</a>
-        </div>
-        <div class="titulo2">
-            <div class="espacamento">
-                <h1 class="titulo">Título da postagem 1</h1>
-                <p>postado em 20 março 2022</p>
-            </div>
-            <img src="Imagens-projeto/imagem2.jpg" alt="">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, neque beatae veniam sunt nobis excepturi? Voluptatum, labore, provident eligendi odit expedita quae ut corporis qui voluptatem nesciunt iste nobis Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, autem ullam. Tempora earum recusandae iste nihil consectetur rem, maiores, veritatis consequatur iure aliquam ullam odit accusantium, corrupti quaerat consequuntur voluptas?</p>
-            <a href=""> Leia mais</a>
-        </div>
-
-        <div class="lateral">
-            <div>
-                <h2>Postagens recentes</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                <a href="">Leia mais</a>
-                <hr>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
-                <a href="">Leia mais</a>
-            </div>
-        </div>
-        <div class="lateral2">
-            <div>
-                <h2>Categorias</h2>
-                <p><a href="">Jogos</a></p>
-                <p><a href="">Celulares</a></p>
-                <p><a href="">Informática</a></p>
-                <p><a href="">Eletrônicos</a></p>
-                <p><a href="">Jogos</a></p>
-            </div>
-        </div>
-
-
+    <div id="area-cabecalho">
+           <div id="area-logo">
+               <h1>Tec<span class="branco">Blog</span></h1>
+           </div>
+           <div id="area-menu">
+                <a href="index.html">Home</a>
+                <a href="jogos.html">Jogos</a>
+                <a href="celulares.html">Celulares</a>
+                <a href="informatica.html">Informática</a>
+                <a href="eletronicos.html">Eletrônicos</a>
+           </div>
     </div>
 
-
+    <div id="area-principal">
+         <div id="area-postagens">
+             <!-- Abertura da postagem -->
+                <div class="postagem">
+                    <h2>Titulo da postagem 1</h2>
+                    <span class="data-postagem">Postado em 20 de março de 2022</span>
+                    <img width="620px" src="Imagens-projeto/imagem1.jpg" alt="Imagem">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam tempora, ducimus deserunt, perspiciatis laboriosam facilis suscipit ut voluptates ipsam maxime itaque ullam, mollitia dolor modi. Quam molestiae doloribus beatae explicabo?</p>
+                    <a href="#">Leia mais</a>
+                </div>   
+                <!-- Fechamento da postagem -->
+         </div>
+         <div id="area-lateral">
+                Area lateral
+         </div>
+         <div id="rodape">
+                Todos os direitos reservados
+         </div>
+    </div>
     
 </body>
 </html>
